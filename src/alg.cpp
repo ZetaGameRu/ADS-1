@@ -19,7 +19,7 @@ uint64_t nPrime(uint64_t n) {
   for (uint64_t i = 2; k <= n; ++i) {
     if (checkPrime(i)) {
       k += 1;
-   }
+    }
     if (k == n) {
       return i;
     }
